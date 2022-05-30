@@ -1,4 +1,8 @@
 [core]
+<<<<<<< HEAD
+=======
+    autostage = true
+>>>>>>> main
     remote = dvc-remote
 ['remote "dvc-remote"']
     url = C:/Users/HEWANM~1/AppData/Local/Temp/dvc-storage
