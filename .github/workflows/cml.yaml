@@ -19,7 +19,8 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
-          #python train.py
+          cd scripts/
+          python train.py
           
       - name: Generate Metrics Report
           echo "# Sample Report" > report.md
