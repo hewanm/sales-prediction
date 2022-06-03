@@ -21,8 +21,3 @@ jobs:
           pip install -r requirements.txt
           cd scripts/
           python train.py
-          
-      - name: Generate Report
-          echo "# Sample Report" > report.md
-          
-          cml send-comment report.md
