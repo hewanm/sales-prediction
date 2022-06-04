@@ -1,7 +1,6 @@
 import streamlit as st
 import awesome_streamlit as ast
 import src.pages.home
-import src.pages.data
 import src.pages.pred
 
 ast.core.services.other.set_logging_format()
@@ -9,7 +8,6 @@ ast.core.services.other.set_logging_format()
 # create the choices
 PAGES = {
     "Home": src.pages.home,
-    "Data":src.pages.data,
     "Run Predictions": src.pages.predict
 }
 
