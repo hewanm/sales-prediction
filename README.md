@@ -1,6 +1,6 @@
 # sales-prediction
 Pharmaceutical Sales prediction across multiple stores
-Predicting all of Rossmann's stores sales
+Predicting all of Rossmann's stores sales.
 
 The first thing done is understanding by doing EDA Which is found in the notebooks folder. Then I have done modelling and pridction.
 
