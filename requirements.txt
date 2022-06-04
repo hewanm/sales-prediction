@@ -9,3 +9,6 @@ mlflow
 sklearn
 tensorflow
 protobuf
+streamlit
+awesome_streamlit
+shap

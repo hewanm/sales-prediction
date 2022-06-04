@@ -1,13 +1,13 @@
 import streamlit as st
 import awesome_streamlit as ast
-import src.pages.home
-import src.pages.pred
+import src.pages.home_page
+import src.pages.predict
 
 ast.core.services.other.set_logging_format()
 
 # create the choices
 PAGES = {
-    "Home": src.pages.home,
+    "Home": src.pages.home_page,
     "Run Predictions": src.pages.predict
 }
 

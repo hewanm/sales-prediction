@@ -9,7 +9,7 @@ import streamlit as st
 import awesome_streamlit as ast
 
 sys.path.append(os.path.abspath(os.path.join('./scripts')))
-from file_handler import FileHandler
+from file import FileHandler
 
 def write():
     """Used to write the page in the app.py file"""
@@ -19,7 +19,7 @@ def write():
     df = file_handler.read_csv('features/test_features.csv')
     test_df = file_handler.read_csv('src/data/test.csv')
     st.markdown('### Sample test data input')
-    st.write(test_df.head(10))
+    st.write(test_df.head(5))
     model = pickle.load(open('models/LSTM_sales_.pkl', "rb"))
     y_preds = model.predict(df)
     prediction_df = df.copy()
